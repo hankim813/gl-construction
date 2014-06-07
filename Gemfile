@@ -25,9 +25,14 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'bootstrap-sass'
 
+# User database
 gem 'devise'
 
+# Allows image attachment to project listings
 gem 'paperclip', '~> 3.0'
+
+# Allows to store images in cloud
+gem 'aws-sdk', '~> 1.20.0'
 
 group :development, :test do
      gem 'sqlite3'
