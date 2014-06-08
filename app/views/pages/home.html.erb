@@ -1,2 +1,60 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%= render "layouts/header" %>
+
+<div class="carousel-home">
+  <div id="slideshow-home" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#slideshow-home" data-slide-to="0" class="active"></li>
+      <li data-target="#slideshow-home" data-slide-to="1"></li>
+      <li data-target="#slideshow-home" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <%= image_tag "skyscrapers.jpg" %>
+        <div class="carousel-caption">
+          <h1>Exécution</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus, eros ac bibendum luctus, lorem arcu rutrum augue, eu convallis orci lorem in justo.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <%= image_tag "beautifulcity.jpg" %>
+        <div class="carousel-caption">
+          <h1>Etudes</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus, eros ac bibendum luctus, lorem arcu rutrum augue, eu convallis orci lorem in justo. </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <%= image_tag "midnightcity.jpg" %>
+        <div class="carousel-caption">
+          <h1>Supervision.</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus, eros ac bibendum luctus, lorem arcu rutrum augue, eu convallis orci lorem in justo.</p>
+        </div>
+      </div>
+    </div><!-- End Item -->
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#slideshow-home" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#slideshow-home" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+</div><!-- carousel ends -->
+
+<div class="homepage-intro-background">
+	<div class="homepage-intro-content">
+		<br><br><br><br>
+		<p>La société de Génie Civil G & L Construction, est une firme haïtienne qui offre ses services professionnels dans l’exécution des projets d’Adduction d’Eau Potable, d’Irrigation, de drainage et de construction de bâtiment.</p>
+		<br><br>
+
+		<nav class="cl-effect-8 center">
+			<%= link_to "Lire la Suite", about_path %>
+		</nav>
+	</div><!-- Homepage intro content ends -->
+	<br><br><br><br>
+</div>

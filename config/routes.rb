@@ -5,7 +5,6 @@ GL::Application.routes.draw do
   root "pages#home"
 
   get "about" => "pages/about"
-  get "why" => "pages/why"
   get "projects" => "pages/projects"
   get "contact" => "pages/contact"
 
