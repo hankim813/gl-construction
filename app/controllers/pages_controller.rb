@@ -5,7 +5,7 @@ class PagesController < ApplicationController
   def about
   end
 
-  def projects
+  def work
   end
 
   def contact

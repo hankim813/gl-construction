@@ -149,7 +149,7 @@ body {
 .carousel-home {
 	margin: 0;
 	position: relative;
-	z-index: -1;
+	z-index: 0;
 }
 
 .carousel-inner .item img {
@@ -486,11 +486,6 @@ nav a:focus {
 .founder-portrait-content img {
 	width: 165px;
 	height: auto;
-	opacity: 0.5;
-}
-
-.founder-portrait-content img:hover {
-	opacity: 1;
 }
 
 .founder-portrait-content {
@@ -585,4 +580,178 @@ nav a:focus {
 
 .staff-div img:hover {
 	opacity: 1;
+}
+
+/* Project Listing */
+
+.projects-content {
+	width: 100%;
+	background-color: white;
+	padding-top: 50px;
+}
+
+.projects-content img {
+	width: 100%;
+	height: auto;
+}
+
+.project-headings {
+	width: 78%;
+	margin: auto;
+}
+
+.project-headings p {
+	font-size: 65px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-top: -255px;
+	text-shadow: 1px 1px 1px #D7D9DF;
+	z-index: 0;
+	padding: 0;
+	background-color: transparent;
+	color: white;
+}
+
+.grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.grid li {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.grid figcaption span:before {
+	content: 'by ';
+}
+
+.grid figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+	color: #fff;
+}
+
+.cs-style-4 li {
+	-webkit-perspective: 1700px;
+	-moz-perspective: 1700px;
+	perspective: 1700px;
+	-webkit-perspective-origin: 0 50%;
+	-moz-perspective-origin: 0 50%;
+	perspective-origin: 0 50%;
+}
+
+.cs-style-4 figure {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.cs-style-4 figure > div {
+	overflow: hidden;
+}
+
+.cs-style-4 figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+.cs-style-4 figure:hover img,
+.cs-style-4 figure.cs-hover img {
+	-webkit-transform: translateX(25%);
+	-moz-transform: translateX(25%);
+	-ms-transform: translateX(25%);
+	transform: translateX(25%);
+}
+
+.cs-style-4 figcaption {
+	height: 100%;
+	width: 50%;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.cs-style-4 figure:hover figcaption,
+.cs-style-4 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-4 figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.project-listing-header {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.project-listing-header h1 {
+	font-size: 40px;
+	color: #393A3B;
+	letter-spacing: 2px;
+	display: inline;
+	margin: 0 15px;
+	transition: all 0.2s ease-out;
+}
+
+.project-listing-header h1:hover {
+	color: #818386;
 }
