@@ -633,6 +633,7 @@ nav a:focus {
 .grid figure {
 	margin: 0;
 	position: relative;
+	box-shadow: 2px 2px 2px #C8C6C6;
 }
 
 .grid figure img {
@@ -646,7 +647,7 @@ nav a:focus {
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #2c3f52;
+	background: #237DAC;
 	color: #ed4e6e;
 }
 
@@ -654,19 +655,23 @@ nav a:focus {
 	margin: 0;
 	padding: 0;
 	color: #fff;
-}
-
-.grid figcaption span:before {
-	content: 'by ';
+	font-size: 20px;
 }
 
 .grid figcaption a {
 	text-align: center;
 	padding: 5px 10px;
 	border-radius: 2px;
+	letter-spacing: 1px;
 	display: inline-block;
 	background: #ed4e6e;
+	font-size: 12px;
 	color: #fff;
+	opacity: 0.85;
+}
+
+.grid figcaption a:hover {
+	opacity: 1;
 }
 
 .cs-style-4 li {
@@ -733,8 +738,8 @@ nav a:focus {
 
 .cs-style-4 figcaption a {
 	position: absolute;
-	bottom: 20px;
-	right: 20px;
+	bottom: 25px;
+	left: 25px;
 }
 
 .project-listing-header {
