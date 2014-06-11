@@ -48,6 +48,11 @@ a:hover {
     clear: both;
 }
 
+.center-page {
+	width: 78%;
+	margin: auto;
+}
+
 hr {
     border: 0;
     height: 0;
@@ -759,4 +764,55 @@ nav a:focus {
 
 .project-listing-header h1:hover {
 	color: #818386;
+}
+
+/* Contact Page */
+
+.contact-background {
+	background-color: white;
+	width: 100%;
+}
+
+.contact-img {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	opacity: 0.8;
+}
+
+.pin-content {
+	width: 78%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.pin-content h1 {
+	color: white;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 55px;
+}
+
+.pin-img {
+	position: relative;
+	margin-top: -450px;
+}
+
+.contact-info-background {
+	width: 78%;
+	margin: auto;
+	margin-top: -25px;
+}
+
+.contact-info {
+	text-align: center;
+	display: inline;
+}
+
+.contact-info h3 {
+	color: #787272;
 }
