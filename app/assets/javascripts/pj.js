@@ -5,6 +5,7 @@ $(document).ready(function() {
 
 	$("#current-proj").click(function() {
 		$("#the-projects").fadeIn("slow")
-	})
+	});
+
 });
 

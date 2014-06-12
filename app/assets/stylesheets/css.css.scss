@@ -1,5 +1,6 @@
 @import 'bootstrap';
 @import url(http://fonts.googleapis.com/css?family=Ek+Mukta:200);
+@import url(http://fonts.googleapis.com/css?family=Black+Ops+One);
 
 /* Cross browser compatibility */
 
@@ -601,7 +602,7 @@ nav a:focus {
 }
 
 .project-headings {
-	width: 78%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -610,17 +611,18 @@ nav a:focus {
 	font-weight: bold;
 	letter-spacing: 2px;
 	text-align: center;
-	margin-top: -255px;
+	margin-top: -245px;
 	text-shadow: 1px 1px 1px #D7D9DF;
 	z-index: 0;
 	padding: 0;
 	background-color: transparent;
 	color: white;
+	font-family: 'Black Ops One', cursive;
 }
 
 .grid {
-	padding: 20px 20px 100px 20px;
-	max-width: 1300px;
+	padding: 20px 20px 50px 20px;
+	width: 80%;
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
@@ -754,16 +756,34 @@ nav a:focus {
 }
 
 .project-listing-header h1 {
-	font-size: 40px;
-	color: #393A3B;
+	font-size: 45px;
+	color: #262726;
 	letter-spacing: 2px;
-	display: inline;
-	margin: 0 15px;
-	transition: all 0.2s ease-out;
+	margin: 0 20px;
+	padding: 20px 45px;
 }
 
-.project-listing-header h1:hover {
-	color: #818386;
+.project-listing-header h5 {
+	color: #928F8F;
+	font-weight: normal;
+}
+
+.completed-projects {
+	font-size: 30px;
+	color: #fff;
+	padding: 20px 45px;
+	margin: auto;
+	letter-spacing: 2px;
+	background-color: #2BDE73;
+	text-align: center;
+	width: 600px;
+	box-shadow: 2px 2px 2px #23B15C;
+	opacity: 0.85;
+}
+
+.completed-projects:hover {
+	opacity: 1;
+	cursor: pointer;
 }
 
 /* Contact Page */
