@@ -6,7 +6,6 @@ $(document).ready(function() {
 	$('#show-p5').hide();
 	$('#realized').hide();
 	$('#show-completed-proj').hide();
-
 	$('#project1').click(function() {
 		$('#the-projects').fadeOut("slow")
 		$('#show-p1').delay(700).fadeIn("slow")
@@ -15,7 +14,6 @@ $(document).ready(function() {
 			$('#the-projects').delay(700).fadeIn("slow")
 		});
 	});
-
 	$('#project2').click(function() {
 		$('#the-projects').fadeOut("slow")
 		$('#show-p2').delay(700).fadeIn("slow")
@@ -24,7 +22,6 @@ $(document).ready(function() {
 			$('#the-projects').delay(700).fadeIn("slow")
 		});
 	});
-
 	$('#project3').click(function() {
 		$('#the-projects').fadeOut("slow")
 		$('#show-p3').delay(700).fadeIn("slow")
@@ -33,7 +30,6 @@ $(document).ready(function() {
 			$('#the-projects').delay(700).fadeIn("slow")
 		});
 	});
-
 	$('#project4').click(function() {
 		$('#the-projects').fadeOut("slow")
 		$('#show-p4').delay(700).fadeIn("slow")
@@ -42,7 +38,6 @@ $(document).ready(function() {
 			$('#the-projects').delay(700).fadeIn("slow")
 		});
 	});
-
 	$('#project5').click(function() {
 		$('#the-projects').fadeOut("slow")
 		$('#show-p5').delay(700).fadeIn("slow")
@@ -51,7 +46,6 @@ $(document).ready(function() {
 			$('#the-projects').delay(700).fadeIn("slow")
 		});
 	});
-
 	$('#view-completed-projects').click(function() {
 		$('#the-projects').fadeOut("slow")
 		$('#cour').fadeOut("slow")
@@ -64,7 +58,6 @@ $(document).ready(function() {
 			$('#the-projects').delay(700).fadeIn("slow")
 		});
 	});
-
 });
 
 
