@@ -488,7 +488,6 @@ nav a:focus {
 	text-align: justify;
 	color: #7C7D81;
 }
-
 .founder-portrait-content img {
 	width: 165px;
 	height: auto;
@@ -749,6 +748,10 @@ nav a:focus {
 	left: 25px;
 }
 
+.cs-style-4 figcaption a:hover {
+	cursor: pointer;
+}
+
 .project-listing-header {
 	width: 100%;
 	margin: auto;
@@ -784,6 +787,39 @@ nav a:focus {
 .completed-projects:hover {
 	opacity: 1;
 	cursor: pointer;
+}
+
+.goback-projects {
+	font-size: 30px;
+	color: #fff;
+	padding: 20px 45px;
+	margin: auto;
+	letter-spacing: 2px;
+	background-color: #55ACEE;
+	text-align: center;
+	width: 600px;
+	box-shadow: 2px 2px 2px #3F89C1;
+	opacity: 0.85;
+}
+
+.goback-projects:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.individual-project-display {
+	width: 78%;
+	margin: auto;
+}
+
+.project-sub {
+	color: #979393;
+}
+
+.project-image-display img {
+	max-width: 450px;
+	height: auto;
+	margin: 15px;
 }
 
 /* Contact Page */

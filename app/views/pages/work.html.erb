@@ -4,11 +4,14 @@
 		<p>Nous obtenons le travail.</p>
 	</div><!-- cover heading ends here -->
 	<br><br><br>
-		<div class="project-listing-header">
-			<h1 id="current-proj">Projets en Cour</h1>
+		<div class="project-listing-header" id="cour">
+			<h1>[ Projets en Cour ]</h1>
 			<h5>La reconstruction d'Haïti, un bâtiment à la fois.</h5><br><br>
 		</div><!-- Project listing header ends -->
-	<!-- JAVASCRIPT TO SHOW AND HIDE/ TOGGLE BETWEEN COMPLETED AND CURRENT PROJECTS -->
+		<div class="project-listing-header" id="realized">
+			<h1>[ Projets Réalisés ]</h1>
+			<h5>La reconstruction d'Haïti, un bâtiment à la fois.</h5><br><br>
+		</div><!-- Project listing header ends -->
 	<ul class="grid cs-style-4" id="the-projects">
 				<li>
 					<figure>
@@ -17,7 +20,7 @@
 							<h3>Réhabilitation du local abritant l’espace culturel de Petit Trou de Nippes</h3>
 							<br>
 							<span>pour BMPAD</span>
-							<a href="#">Afficher le Projet</a>
+							<a id="project1">Afficher le Projet</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -28,7 +31,7 @@
 							<h3>Construction du marché Ste Thérèse de Petit Trou de Nippes</h3>
 							<br>
 							<span>pour FAES</span>
-							<a href="#">Afficher le Projet</a>
+							<a id="project2">Afficher le Projet</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -39,7 +42,7 @@
 							<h3>Construction d'une place publique</h3>
 							<br>
 							<span>pour UCLBP</span>
-							<a href="#">Afficher le Projet</a>
+							<a id="project3">Afficher le Projet</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -50,7 +53,7 @@
 							<h3>Réparation de l'Eglise St Pierre</h3>
 							<br>
 							<span>pour UCLBP</span>
-							<a href="#">Afficher le Projet</a>
+							<a id="project4">Afficher le Projet</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -61,13 +64,35 @@
 							<h3>Réparation de l'école nationale de la ville des Baradères</h3>
 							<br>
 							<span>pour UCLBP</span>
-							<a href="#">Afficher le Projet</a>
+							<a id="project5">Afficher le Projet</a>
 						</figcaption>
 					</figure>
 				</li>
-			</ul>
 			<div class="center-page">
-				<h1 class="completed-projects">Afficher le Projets Réalisés</h1>
+				<br><br>
+				<h1 class="completed-projects" id="view-completed-projects">Afficher le Projets Réalisés</h1>
+			</div>
+			</ul><!-- project listing ends -->
+
+			<div class="individual-project-display">
+				<div id="show-p1">
+					<%= render "layouts/project1" %>
+				</div>
+				<div id="show-p2">
+					<%= render "layouts/project2" %>
+				</div>
+				<div id="show-p3">
+					<%= render "layouts/project3" %>
+				</div>
+				<div id="show-p4">
+					<%= render "layouts/project4" %>
+				</div>
+				<div id="show-p5">
+					<%= render "layouts/project5" %>
+				</div>
+				<div id="show-completed-proj">
+					<%= render "layouts/completed" %>
+				</div>						
 			</div>
 			<br><br>
 </div><!-- projects content ends here -->
