@@ -34,6 +34,9 @@ gem 'paperclip', '~> 3.0'
 # Allows to store images in cloud
 gem 'aws-sdk', '~> 1.20.0'
 
+# To allow jQuery to work before refreshing page
+gem 'jquery-turbolinks'
+
 group :development, :test do
      gem 'sqlite3'
 end
