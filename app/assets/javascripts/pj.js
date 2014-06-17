@@ -1,61 +1,52 @@
 $(document).ready(function() {
-	$('#show-p1').hide();
-	$('#show-p2').hide();
-	$('#show-p3').hide();
-	$('#show-p4').hide();
-	$('#show-p5').hide();
-	$('#realized').hide();
-	$('#show-completed-proj').hide();
+	
 	$('#project1').click(function() {
 		$('#the-projects').fadeOut("slow")
-		$('#show-p1').delay(700).fadeIn("slow")
+		$('#show-p1').delay(300).removeClass("hide")
 		$('#goback').click(function() {
-			$('#show-p1').fadeOut("slow")
-			$('#the-projects').delay(700).fadeIn("slow")
+			$('#show-p1').addClass("hide")
+			$('#the-projects').fadeIn("slow")
 		});
 	});
 	$('#project2').click(function() {
 		$('#the-projects').fadeOut("slow")
-		$('#show-p2').delay(700).fadeIn("slow")
+		$('#show-p2').delay(300).removeClass("hide")
 		$('#goback2').click(function() {
-			$('#show-p2').fadeOut("slow")
-			$('#the-projects').delay(700).fadeIn("slow")
+			$('#show-p2').addClass("hide")
+			$('#the-projects').fadeIn("slow")
 		});
 	});
 	$('#project3').click(function() {
 		$('#the-projects').fadeOut("slow")
-		$('#show-p3').delay(700).fadeIn("slow")
+		$('#show-p3').delay(300).removeClass("hide")
 		$('#goback3').click(function() {
-			$('#show-p3').fadeOut("slow")
-			$('#the-projects').delay(700).fadeIn("slow")
+			$('#show-p3').addClass("hide")
+			$('#the-projects').fadeIn("slow")
 		});
 	});
 	$('#project4').click(function() {
 		$('#the-projects').fadeOut("slow")
-		$('#show-p4').delay(700).fadeIn("slow")
+		$('#show-p4').delay(300).removeClass("hide")
 		$('#goback4').click(function() {
-			$('#show-p4').fadeOut("slow")
-			$('#the-projects').delay(700).fadeIn("slow")
+			$('#show-p4').addClass("hide")
+			$('#the-projects').fadeIn("slow")
 		});
 	});
 	$('#project5').click(function() {
 		$('#the-projects').fadeOut("slow")
-		$('#show-p5').delay(700).fadeIn("slow")
+		$('#show-p5').delay(300).removeClass("hide")
 		$('#goback5').click(function() {
-			$('#show-p5').fadeOut("slow")
-			$('#the-projects').delay(700).fadeIn("slow")
+			$('#show-p5').addClass("hide")
+			$('#the-projects').fadeIn("slow")
 		});
 	});
 	$('#view-completed-projects').click(function() {
 		$('#the-projects').fadeOut("slow")
 		$('#cour').fadeOut("slow")
-		$('#realized').fadeIn("slow")
-		$('#show-completed-proj').delay(700).fadeIn('slow')
+		$('#realized, #show-completed-proj').delay(300).removeClass("hide")
 		$('#goback6').click(function() {
-			$('#realized').fadeOut("slow")
-			$('#show-completed-proj').fadeOut("slow")
-			$('#cour').fadeIn("slow")
-			$('#the-projects').delay(700).fadeIn("slow")
+			$('#realized, #show-completed-proj').addClass("hide")
+			$('#cour, #the-projects').fadeIn("slow")
 		});
 	});
 });

@@ -8,7 +8,7 @@
 			<h1>[ Projets en Cour ]</h1>
 			<h5>La reconstruction d'Haïti, un bâtiment à la fois.</h5><br><br>
 		</div><!-- Project listing header ends -->
-		<div class="project-listing-header" id="realized">
+		<div class="project-listing-header hide" id="realized">
 			<h1>[ Projets Réalisés ]</h1>
 			<h5>La reconstruction d'Haïti, un bâtiment à la fois.</h5><br><br>
 		</div><!-- Project listing header ends -->
@@ -20,7 +20,7 @@
 							<h3>Réhabilitation du local abritant l’espace culturel de Petit Trou de Nippes</h3>
 							<br>
 							<span>pour BMPAD</span>
-							<a id="project1">Afficher le Projet</a>
+							<a target="#top" id="project1">Afficher le Projet</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -31,7 +31,7 @@
 							<h3>Construction du marché Ste Thérèse de Petit Trou de Nippes</h3>
 							<br>
 							<span>pour FAES</span>
-							<a id="project2">Afficher le Projet</a>
+							<a target="#top" id="project2">Afficher le Projet</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -42,7 +42,7 @@
 							<h3>Construction d'une place publique</h3>
 							<br>
 							<span>pour UCLBP</span>
-							<a id="project3">Afficher le Projet</a>
+							<a target="#top" id="project3">Afficher le Projet</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -53,7 +53,7 @@
 							<h3>Réparation de l'Eglise St Pierre</h3>
 							<br>
 							<span>pour UCLBP</span>
-							<a id="project4">Afficher le Projet</a>
+							<a target="#top" id="project4">Afficher le Projet</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -64,33 +64,33 @@
 							<h3>Réparation de l'école nationale de la ville des Baradères</h3>
 							<br>
 							<span>pour UCLBP</span>
-							<a id="project5">Afficher le Projet</a>
+							<a target="#top" id="project5">Afficher le Projet</a>
 						</figcaption>
 					</figure>
 				</li>
 			<div class="center-page">
 				<br><br>
-				<h1 class="completed-projects" id="view-completed-projects">Afficher le Projets Réalisés</h1>
+				<a target="#top"><h1 class="completed-projects" id="view-completed-projects">Afficher le Projets Réalisés</h1></a>
 			</div>
 			</ul><!-- project listing ends -->
 
 			<div class="individual-project-display">
-				<div id="show-p1">
+				<div id="show-p1" class="hide">
 					<%= render "layouts/project1" %>
 				</div>
-				<div id="show-p2">
+				<div id="show-p2" class="hide">
 					<%= render "layouts/project2" %>
 				</div>
-				<div id="show-p3">
+				<div id="show-p3" class="hide">
 					<%= render "layouts/project3" %>
 				</div>
-				<div id="show-p4">
+				<div id="show-p4" class="hide">
 					<%= render "layouts/project4" %>
 				</div>
-				<div id="show-p5">
+				<div id="show-p5" class="hide">
 					<%= render "layouts/project5" %>
 				</div>
-				<div id="show-completed-proj">
+				<div id="show-completed-proj" class="hide">
 					<%= render "layouts/completed" %>
 				</div>						
 			</div>

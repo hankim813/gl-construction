@@ -54,6 +54,14 @@ a:hover {
 	margin: auto;
 }
 
+.hide {
+	display: none;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
 hr {
     border: 0;
     height: 0;
@@ -178,7 +186,7 @@ body {
 }
 
 .carousel-caption h1 {
-	font-size: 45px;
+	font-size: 60px;
 	text-shadow: 1px 1px 2px #515050;
 }
 
