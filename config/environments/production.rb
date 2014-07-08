@@ -79,7 +79,7 @@ GL::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Required for Devise. Change to real domain. 
-  config.action_mailer.default_url_options = { :host => 'http://gl-construction.herokuapp.com/' }
+  config.action_mailer.default_url_options = { :host => 'http://www.getlconstruction.com' }
 
   # Required Amazon S3
   config.paperclip_defaults = {
